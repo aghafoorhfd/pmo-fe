@@ -1,0 +1,35 @@
+.task-list-header {
+  text-align: center;
+}
+.task-list-header ._1nBOt {
+  background-color: #ffffff;
+  color: rgb(69, 85, 96);
+  font-weight: 700;
+}
+
+.task-list-header ._34SS0 {
+  background-color: #ffffff;
+}
+
+.task-list-header .calendar {
+  color: rgb(69, 85, 96);
+}
+
+.gantt-chart-container {
+  border-radius: 10px;
+  border: 1px solid #f2f4f7;
+  background: #fefefe;
+}
+
+.top-bar-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+
+.project-timeline-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828
+}

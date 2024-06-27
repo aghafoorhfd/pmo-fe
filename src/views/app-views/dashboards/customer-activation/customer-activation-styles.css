@@ -1,0 +1,18 @@
+th.billing-column {
+  background-color: #bcd6ee !important;
+}
+
+th.features-column {
+  background-color: #fce4d6 !important;
+}
+
+.product-admin-table-container
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-body
+  > table
+  > tbody
+  > tr
+  > td:not(:nth-last-child(1)) {
+  border-right: none;
+}

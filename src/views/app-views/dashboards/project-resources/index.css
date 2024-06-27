@@ -1,0 +1,37 @@
+  /* Styles for resource chart tool tip */
+  .tool-tip-container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(26,51,83,.15);
+
+  }
+
+  .tool-tip-container .resource-item{
+    font-size: 12px;
+  }
+  .tool-tip-container .resource-item .resource-duration{
+    color: #3e79f7;
+  }
+  .tool-tip-container .resource-item .resource-name{
+    color: darkslategray;
+  }
+  .resource-overlay-tooltip .ant-tooltip-inner {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background-color: white !important;
+    padding: 0 !important;
+  }
+
+  .resource-font-color-blue {
+    color: #3e79f7;
+  }
+  .resource-font-color-grey {
+    color: gray;
+  }
+  .resource-font-color-green {
+    color: #039855;
+  }
+  .resource-font-color-red {
+    color: #D92D20;
+  }

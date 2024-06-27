@@ -1,0 +1,94 @@
+.ant-pagination {
+
+    &.mini {
+
+        .ant-pagination-item {
+            line-height: @pagination-item-size-sm;
+        }
+    }
+}
+
+.ant-pagination-item, .ant-pagination-total-text
+
+.ant-pagination-item {
+    border-radius: 50%;
+    border-color: transparent;
+    line-height: @pagination-item-size;
+
+    &:hover,
+    &:focus {
+        border-color: transparent;
+    }
+}
+
+.ant-pagination-next, 
+.ant-pagination-prev {
+    .ant-pagination-item-link {
+        border-radius: 50%
+    }
+}
+
+.ant-pagination-item-active {
+
+    a {
+        color: @white;
+    }
+
+    &:focus, 
+    &:hover {
+
+        a {
+            color: @white;
+        }
+    }
+}
+
+
+// Styles for Custom Pagination component shared-component/DataTable/Pagination
+@selected-color: #EFF8FF;
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    & .pagination-pages {
+        display: flex;
+        align-items: flex-end;
+        grid-gap: 1rem;
+
+        & .pagination-item {
+            border: none !important;
+            color: @gray !important;
+            box-shadow: none;
+            &:focus, 
+            &:hover,
+            &.active {
+                border: @selected-color !important;
+                background-color: @selected-color !important;
+                color: @blue-base !important;
+            }
+        }
+    }
+
+    & .pagination-prev-item, 
+    & .pagination-next-item {
+        border-color: @border-color-base !important;
+        background-color: @white !important;
+        color: #344054 !important;
+        &[disabled] {
+            border-color: #E4E7EC !important;
+            color: #D0D5DD !important;
+        }
+        &:focus, 
+        &:hover,
+        &.active {
+            &:not([disabled]){
+                border-color: @selected-color !important;
+                background-color: @selected-color !important;
+                color: @blue-base !important
+            }
+        }
+    }
+    & .pagination-ellipsis{
+        font-size: 1.5rem;
+    }
+}

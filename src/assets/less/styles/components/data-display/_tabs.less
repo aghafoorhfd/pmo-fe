@@ -1,0 +1,50 @@
+.ant-tabs-tab {
+    padding: 12px 20px;
+    margin-right: 20px;
+}
+
+@tab-active-border-color: #3E79F7;
+@tab-border-style: @border-width-base @border-style-base @border-color-base;
+
+.pill-shape-tabs {
+
+    & .ant-tabs-nav::before {
+        display: none;
+    }
+    & .ant-tabs-nav-list {
+        & .ant-tabs-tab {
+            padding: 10px 16px;
+            border: @tab-border-style;
+            border-left: 0;
+            color: @blue-base;
+            margin: 0px;
+            &:first-child {
+                border-left: @tab-border-style;
+                border-radius: 8px 0px 0px 8px;
+            }
+            &:nth-last-child(2) {
+                border-radius: 0px 8px 8px 0px;
+            }
+            &.ant-tabs-tab-active{
+                background-color: #EFF8FF;
+                border: @border-width-base @border-style-base @tab-active-border-color;
+            }
+          }
+
+        & .ant-tabs-ink-bar {
+            display: none;
+        }
+    }
+}
+
+.ant-tabs-card {
+
+    &.ant-tabs-top {
+
+        > .ant-tabs-nav .ant-tabs-tab, 
+        > div > .ant-tabs-nav .ant-tabs-tab {
+         
+                border-radius: @border-radius-sm @border-radius-sm 0px 0px;
+        }
+    }
+}

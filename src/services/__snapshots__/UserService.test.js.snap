@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auth Service should call for user profile data 1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "method": "get",
+        "url": "http://10.4.100.183:8085/user_service/api/users/user-profile",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call forgot password handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "data": {
+          "email": "test@gmail.com",
+        },
+        "method": "POST",
+        "url": "http://10.4.100.183:8085/user_service/api/users/forgot-password",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call get company data  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "method": "get",
+        "url": "http://10.4.100.183:8085/user_service/api/users/company",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call getCurrentUsers handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "method": "get",
+        "url": "http://10.4.100.183:8085/user_service/api/users/undefined/undefined?accessType=[object Object]&filterAnd=status%7Cundefined",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call getPrivileges handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "method": "get",
+        "url": "http://10.4.100.183:8085/user_service/api/users/admin/privileges",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call getProjectConfigurations endpoint  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "method": "get",
+        "url": "undefined/project_service/api/projects/metrics",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call getUsersStatistics handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "method": "get",
+        "url": "http://10.4.100.183:8085/user_service/api/users/category/stats",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call login handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "data": {
+          "email": "test@gmail.com",
+          "password": "12345678",
+        },
+        "method": "post",
+        "url": "http://10.4.100.183:8080/auth_service/api/users/login",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call register handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "data": {
+          "email": "test@gmail.com",
+          "firstName": "John",
+          "lastName": "Dunk",
+        },
+        "method": "POST",
+        "url": "http://10.4.100.183:8085/user_service/api/users/register",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call reject user api 1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "method": "put",
+        "url": "http://10.4.100.183:8085/user_service/api/users/1270d309-c262-4e3a-9c76-db6cc/reject",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call send invite endpoint  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "method": "put",
+        "url": "http://10.4.100.183:8085/user_service/api/users/1270d309-c262-4e3a-9c76-db6cc/invite",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call set password handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "data": {
+          "newUser": true,
+          "password": "123456",
+          "userId": "qwertyuiopasdfghj123456sdgh",
+        },
+        "method": "post",
+        "url": "http://10.4.100.183:8085/user_service/api/users/credentials",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call set password handler with reset endpoint  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "data": {
+          "newUser": false,
+          "password": "123456",
+          "userId": "qwertyuiopasdfghj123456sdgh",
+        },
+        "method": "put",
+        "url": "http://10.4.100.183:8080/auth_service/api/users/reset-password",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call sign out handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      "auth_token",
+    ],
+    [
+      "user",
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call update password service 1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "data": undefined,
+        "method": "put",
+        "url": "http://10.4.100.183:8080/auth_service/api/users/credentials",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call verify set password token handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "method": "get",
+        "url": "http://10.4.100.183:8085/user_service/api/users/verify-email?token=qwertyuiopasdfghj123456sdgh",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service updateProjectMetrics should call updateProjectMetrics endpoint with Post http method 1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "data": {
+          "metric": [
+            "stages",
+          ],
+        },
+        "method": "post",
+        "url": "undefined/project_service/api/projects/metrics?metric=PROJECT_STAGES",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service updateProjectMetrics should call updateProjectMetrics endpoint with put http method 1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "data": {
+          "metric": [
+            "stages",
+          ],
+        },
+        "method": "put",
+        "url": "undefined/project_service/api/projects/metrics/PROJECT_STAGES",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;

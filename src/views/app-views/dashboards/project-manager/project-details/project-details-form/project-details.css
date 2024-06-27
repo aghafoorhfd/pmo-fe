@@ -1,0 +1,30 @@
+.card-container > .ant-card-body {
+    border-radius: 0.625rem;
+    background:#FFFFFF;
+    border: 1px solid #E4E7EC;
+}
+
+.title-row {
+    margin-bottom: 1rem;
+}
+
+.input-fields {
+    height: 3rem;
+}
+
+.input-fields > .ant-select-selector {
+    padding-top: 0.3rem !important;
+    height: 3rem !important;
+}
+
+.project-details-loader {
+    min-height: 85vh;
+}
+.sticky-header {
+    position: sticky;
+    z-index: 100;
+    top: 70px;
+}
+.sticky-header-overlapped, .sticky-header-overlapped .ant-card-body {
+    border-radius: 0;
+}

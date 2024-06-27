@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project Details Slice should show the initial state for projectDetails 1`] = `
+{
+  "configurationMetrics": {},
+  "generalUsers": [],
+  "loading": false,
+  "message": "",
+  "projectList": [],
+  "selectedProjectDetails": "",
+  "showMessage": false,
+  "status": "success",
+}
+`;

@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auth Service should call add Project details handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "data": {
+          "category": "samplecategory",
+          "companyId": "d153c439-2bc8-4ede-a092-26955c9d443b",
+          "currentStage": "Planning",
+          "currentState": "Confirmed",
+          "currentStatus": "Active",
+          "department": "Software",
+          "outlook": "orange",
+          "outlookReason": "resource shortage",
+          "overview": "sample overview",
+          "priority": "High",
+          "productManager": "adeeb",
+          "projectCadence": "Agile",
+          "projectManager": "adeeb",
+          "projectName": "newPROJ",
+          "projectNumber": "A13de3",
+          "stakeHolders": [
+            {
+              "accessType": "ADMIN",
+              "companyId": "1fdf3e68-3592-4252-afec-069ef1bda957",
+              "email": "abc@nisum.com",
+              "firstName": "adeeb",
+              "id": "3368898a-f144-421a-8e53-ae5d0c6f84ca",
+              "lastName": "khalid",
+              "phoneNumber": "1213",
+            },
+          ],
+          "techLead": {
+            "accessType": "ADMIN",
+            "companyId": "1fdf3e68-3592-4252-afec-069ef1bda957",
+            "email": "abc@nisum.com",
+            "firstName": "adeeb",
+            "id": "3368898a-f144-421a-8e53-ae5d0c6f84ca",
+            "lastName": "khalid",
+            "phoneNumber": "1213",
+          },
+          "theme": "Simplify Management",
+        },
+        "method": "post",
+        "url": "undefined/project_service/api/projects",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call get Project Timeline handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "method": "get",
+        "url": "undefined/project_service/api/timelines/projects/ProjectID/metrics",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call get Project details handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "method": "get",
+        "url": "undefined/project_service/api/projects/ProjectID",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call get Project ranges handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "method": "get",
+        "url": "undefined/project_service/api/timelines/projects/ProjectID/sprint",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call invite stake holders handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "data": {
+          "projectName": "abc",
+          "stakeHolders": [
+            {
+              "accessType": "ADMIN",
+              "companyId": "1fdf3e68-3592-4252-afec-069ef1bda957",
+              "email": "abc@nisum.com",
+              "firstName": "adeeb",
+              "id": "3368898a-f144-421a-8e53-ae5d0c6f84ca",
+              "lastName": "khalid",
+              "phoneNumber": "1213",
+            },
+          ],
+        },
+        "method": "post",
+        "url": "undefined/project_service/api/projects/invite-stakeholders",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Auth Service should call update Project details handler  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "data": {
+          "category": "samplecategory",
+          "companyId": "d153c439-2bc8-4ede-a092-26955c9d443b",
+          "currentStage": "Planning",
+          "currentState": "Confirmed",
+          "currentStatus": "Active",
+          "department": "Software",
+          "outlook": "orange",
+          "outlookReason": "resource shortage",
+          "overview": "sample overview",
+          "priority": "High",
+          "productManager": "adeeb",
+          "projectCadence": "Agile",
+          "projectManager": "adeeb",
+          "projectName": "newPROJ",
+          "projectNumber": "A13de3",
+          "stakeHolders": [
+            {
+              "accessType": "ADMIN",
+              "companyId": "1fdf3e68-3592-4252-afec-069ef1bda957",
+              "email": "abc@nisum.com",
+              "firstName": "adeeb",
+              "id": "3368898a-f144-421a-8e53-ae5d0c6f84ca",
+              "lastName": "khalid",
+              "phoneNumber": "1213",
+            },
+          ],
+          "techLead": {
+            "accessType": "ADMIN",
+            "companyId": "1fdf3e68-3592-4252-afec-069ef1bda957",
+            "email": "abc@nisum.com",
+            "firstName": "adeeb",
+            "id": "3368898a-f144-421a-8e53-ae5d0c6f84ca",
+            "lastName": "khalid",
+            "phoneNumber": "1213",
+          },
+          "theme": "Simplify Management",
+        },
+        "method": "put",
+        "url": "undefined/project_service/api/projects/123",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;

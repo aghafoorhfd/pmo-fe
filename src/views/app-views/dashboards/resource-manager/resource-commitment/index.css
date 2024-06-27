@@ -1,0 +1,78 @@
+.resource-commitment-container {
+    border: 1px solid rgb(230, 235, 241);
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.resource-commitment-loading {
+    min-height: 20rem;
+}
+
+.resource-commitment-data-table {
+    width: 100% !important;
+    border-collapse: collapse;
+    overflow-x: auto;
+    white-space: nowrap;
+    background: #fefefe;
+}
+
+.resource-commitment-data-table  td {
+   border: 1px solid rgb(230, 235, 241) !important;
+}
+
+.resource-commitment-data-table tbody tr {
+    display: flex;
+    width: 100%;
+  }
+
+  .resource-commitment-data-table thead tr {
+    display: flex;
+    width: 100%;
+  }
+
+ .resource-commitment-data-table tbody tr > *:nth-child(-n + 2),
+ .resource-commitment-data-table thead tr > *:nth-child(-n + 2) {
+    width: 300px;
+    position: sticky;
+    left: 0;
+    background-color: white;
+  }  
+
+  .resource-commitment-data-table tbody tr > *:nth-child(2),
+  .resource-commitment-data-table thead tr > *:nth-child(2) {
+    left: 300px;
+  }
+
+  .resource-commitment-data-table tbody tr > *:nth-child(n + 3),
+  .resource-commitment-data-table thead tr > *:nth-child(n + 3) {
+    flex: 1;
+    min-width: 170px;
+  }
+
+.sticky-column-background{
+    background: #D1E9FF !important;
+}
+
+.range-cell {
+    background: #F2F4F7 !important;
+}
+.team-available-cell{
+    background: #EFF8FF;
+}
+.team-capacity-data-heading{
+    color: #101828;
+}
+.user-capacity-widget-card .apexcharts-text{
+    fill: #667085;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.resource-name{
+    text-align: right;
+}
+.ellipses {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }

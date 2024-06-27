@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Slice should call show loading action 1`] = `
+{
+  "filter": {
+    "pageNumber": 1,
+    "pageSize": 10,
+  },
+  "isFormVisible": false,
+  "loading": true,
+  "message": "",
+  "privileges": {},
+  "showMessage": false,
+  "status": "",
+  "user": {
+    "email": "test@gmail.com",
+  },
+  "users": [],
+}
+`;
+
+exports[`User Slice should set the initial data for user after login 1`] = `
+{
+  "filter": {
+    "pageNumber": 1,
+    "pageSize": 10,
+  },
+  "isFormVisible": false,
+  "loading": false,
+  "message": "",
+  "privileges": {},
+  "showMessage": false,
+  "status": "",
+  "user": {
+    "email": "test@gmail.com",
+  },
+  "users": [],
+}
+`;
+
+exports[`User Slice should show the initial state for user 1`] = `
+{
+  "filter": {
+    "pageNumber": 1,
+    "pageSize": 10,
+  },
+  "isFormVisible": false,
+  "loading": false,
+  "message": "",
+  "privileges": {},
+  "showMessage": false,
+  "status": "",
+  "users": [],
+}
+`;

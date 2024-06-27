@@ -1,0 +1,15 @@
+.profile-detail-description {
+    height: 100%;
+}
+
+.profile-detail-description .ant-upload-picture-card-wrapper {
+    width: auto;
+}
+
+.profile-detail-header {
+    padding: 1.25rem ;
+}
+
+.text-styles {
+    color: rgb(102, 112, 133) !important;
+}

@@ -1,0 +1,14 @@
+.request-resource-card {
+  box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.1),
+    0px 8px 8px -4px rgba(16, 24, 40, 0.04);
+}
+
+.request-resource-form {
+  margin-top: 2rem;
+}
+
+.resource-req-cross-btn-cross-row {
+  display: flex;
+  justify-content: flex-end;
+  height: 2.7rem;
+}

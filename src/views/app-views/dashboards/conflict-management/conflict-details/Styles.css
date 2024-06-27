@@ -1,0 +1,41 @@
+.card-container {
+  box-sizing: border-box;
+  border: 1px solid #E4E7EC;
+}
+
+.conflict-details-container .input-fields {
+  min-height: 2.8rem;
+  height: 168px;
+}
+
+.conflict-details-container .input-fields  > .ant-select-selector {
+  min-height: 2.8rem;
+  height: auto !important;
+}
+
+.conflict-details-container .buttons {
+  gap: 10px;
+}
+
+
+/* FIXME: Applied Globally */
+.ant-input-textarea-suffix {
+  top: 12px !important;
+  right: 7px !important;
+}
+
+.content-scrollable {
+  height: 160px;
+  overflow: scroll;
+}
+
+.icon-area {
+  position: relative;
+  padding: 40px 10px 0px 20px;
+}
+.icon-container {
+  position: absolute;
+  top: 75px;
+  left: 30px;
+  font-size: larger;
+}

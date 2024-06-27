@@ -1,0 +1,11 @@
+.team-setup-screen .ant-card {
+    margin: 0 !important;
+}
+.team-setup-screen .content-scrollable {
+    height: 243px;
+    overflow: scroll;
+
+}
+.team-setup-screen {
+    min-height: 474px;
+}

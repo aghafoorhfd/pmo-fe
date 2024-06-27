@@ -1,0 +1,16 @@
+.resource-and-conflict-card {
+    min-height: 17.4rem;
+}
+
+.conflict-row {
+    border: 0.5px solid #E4E7EC;
+}
+
+.conflict-col-left {
+    border-right: 0.5px solid #E4E7EC;
+    line-height: 50px;
+}
+
+.conflict-col-right {
+    line-height: 50px;
+}

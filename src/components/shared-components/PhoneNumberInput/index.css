@@ -1,0 +1,15 @@
+.react-international-phone-input-container .react-international-phone-input {
+    height: 40px !important;
+    border-radius: 0px 10px 10px 0px !important;
+    width: 100%
+}
+.react-international-phone-input-container .react-international-phone-country-selector-button {
+    border-radius: 10px 0px 0px 10px !important;
+    height: 40px !important;
+}
+.react-international-phone-input{
+    color: rgb(102, 112, 133) !important;
+}
+.react-international-phone-input::placeholder {
+    color:rgba(114,132,154,.4);
+}

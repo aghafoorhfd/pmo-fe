@@ -1,0 +1,11 @@
+.col-left {
+  background: #eff8ff;
+  padding: 0.2rem;
+  border-radius: 0.628rem;
+  border: 0.01rem solid #f2f4f7;
+}
+
+.col-left > .ant-segmented:hover {
+  background-color: unset !important;
+  color: #3e79f7 !important;
+}

@@ -1,0 +1,54 @@
+.team-bulletin-heading {
+    color: #16192C;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 12px;
+}
+
+.bulletin-list-scrollable {
+    height: 300px;
+}
+
+.center-loading {
+    height: 370px;
+}
+
+.content-width {
+    width: 99%;
+}
+
+.seen-message {
+    font-size: 14px;
+    color: #667085 !important;
+}
+
+.unseen-message {
+    font-size: 14px;
+    color: #1D2939;
+}
+
+.add-new-bulleting-btn {
+    height: 37px;
+    display: inline-flex;
+    align-items: center;
+    margin: 0px !important;
+}
+
+.add-new-bulleting-btn svg {
+    padding-right: 5px;
+}
+
+.date-time-format {
+    font-size: 11px;
+    color: #A5A5A5
+}
+
+.infinite-scroll-container {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: auto;
+}
+
+.text-area-field-container {
+    z-index: 2;
+}

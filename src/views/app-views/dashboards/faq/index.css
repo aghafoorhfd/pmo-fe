@@ -1,0 +1,17 @@
+.faq-collapse {
+    background: none;
+}
+
+.faq-collapse h4 {
+    margin-bottom: 24px;
+}
+
+.faq-collapse .ant-collapse-item {
+    margin-bottom: 32px;
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 8px !important;
+    border: none;
+}
+.faq-collapse .ant-collapse-content-box {
+    white-space: pre-wrap;
+}

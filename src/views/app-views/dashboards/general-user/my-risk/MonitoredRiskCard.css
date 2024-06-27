@@ -1,0 +1,29 @@
+.header-tag-container{
+    line-height: 30px;
+    border-radius: 1.2rem;
+}
+
+.header-tag-container > .ant-tag  {
+    border-radius: 1.2rem;
+    color: #3E79F7;
+}
+
+.header-sub-heading {
+    color: #72849a;
+}
+
+.search-dropdown-container {
+    border-bottom: 0.5px solid #667085;
+    color: #667085;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.search-dropdown-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

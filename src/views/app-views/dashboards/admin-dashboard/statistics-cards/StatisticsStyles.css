@@ -1,0 +1,9 @@
+.statistic-card {
+  border: 1px solid #e4e7ec;
+}
+
+.billing-status-text {
+  margin-top: 1.6rem;
+  font-size: 13px;
+  padding-left: 0.6rem;
+}

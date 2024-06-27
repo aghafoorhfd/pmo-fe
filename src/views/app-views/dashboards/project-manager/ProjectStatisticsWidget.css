@@ -1,0 +1,15 @@
+.project-statistics .sub-heading {
+    font-size: 15px;
+    font-weight: 600;
+    color: #101828;
+}
+
+.project-statistics .sub-heading-value {
+    font-size: 14px;
+    font-weight: 400;
+    color: #101828;
+}
+
+.project-statistics .show-details-label {
+    font-weight: 500;
+}

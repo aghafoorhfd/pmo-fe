@@ -1,0 +1,10 @@
+.side-nav-bar .ant-menu-title-content 
+.ant-row svg {
+    width: 26px;
+    height: 26px;
+}
+
+.side-nav-bar .ant-menu-title-content 
+.ant-row span:nth-child(2) {
+    margin-left: 10px;
+}

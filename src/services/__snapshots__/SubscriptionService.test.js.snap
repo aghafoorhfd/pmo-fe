@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Subscription Service should call get All Customer Plans  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "method": "get",
+        "url": "undefined/subscription_service/api/plans/customers/1/1",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Subscription Service should call get Web Plans  1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "method": "get",
+        "url": "undefined/subscription_service/api/plans/web",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;

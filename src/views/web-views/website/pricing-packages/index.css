@@ -1,0 +1,199 @@
+.plan-card .ant-card-body {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 44rem;
+}
+
+.package-font-color {
+  color: rgb(9, 30, 66) !important;
+}
+
+.package-font-weight {
+  font-weight: 600 !important;
+}
+.package-heading-container {
+  border-radius: 9px 9px 0 0;
+  padding: 20px 25px;
+  background-color: rgb(250, 251, 252);
+  text-align: center;
+}
+
+.package-heading {
+  font-size: 24px;
+}
+
+.package-section {
+  min-height: 310px;
+  border-radius: 9px 9px 0 0;
+  border-bottom-color: rgb(223, 225, 230);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  background-color: white;
+}
+.selected-package-section {
+  border-radius: 9px 9px 0 0;
+  background-color: rgb(241, 247, 255) !important;
+  border-bottom-color: #3E79F7 !important;
+}
+.price-section {
+  font-size: 44px;
+}
+
+.description-info {
+  color: rgb(9, 30, 66);
+  margin-bottom: 2px;
+}
+
+.package-btn {
+    border-radius: 8px;
+    color:#F7F8FA  !important;
+    border-color: #3E79F7 !important;
+    background-color: #3E79F7 !important;
+}
+
+.selected-package-font-color {
+  color: white !important;
+}
+.active-button-selected-package-bg {
+  background-color: #EF642E !important;
+  border-color: #EF642E !important;
+}
+.selected-plan-card-container {
+  border-top: 15px solid #3e79f7;
+  border-bottom: 15px solid #3e79f7;
+  border-radius: 9px;
+ }
+
+ .unselected-plan {
+  border-top: 15px solid rgb(241, 247, 255);
+  border-bottom: 15px solid rgb(241, 247, 255);
+  border-radius: 9px;
+  border-color: rgb(241, 247, 255);
+ }
+
+.feature-item {
+  font-size: 16px;
+}
+.diagonal_line_through {
+  position: relative;
+  display: inline-block;
+  font-size: 23px;
+  font-weight: 500;
+}
+.diagonal_line_through::before {
+  position: absolute;
+  top: 45%;
+  right: 0;
+  width: 71%;
+  content: "";
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  transform: skewY(45deg);
+}
+
+.ant-carousel .slick-disabled {
+  cursor: not-allowed;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.ant-carousel .slick-prev {
+  left: -14px;
+}
+
+.ant-carousel .slick-next {
+  right: -14px;
+}
+
+.billing-radio-group {
+  background-color:#F7F8FA;
+  border: 1px solid #D0D7DF;
+  border-radius: 11px;
+  transition: border .2s ease-in-out;
+  width: 236px;
+}
+
+.billing-radio-group:focus-within {
+  outline: 2px solid #0769DA
+}
+
+.billing-radio-group .ant-radio-button-wrapper:not(:first-child)::before{
+  content: none !important;
+ }
+.billing-radio-group .ant-radio-button-wrapper{
+  border-color: transparent;
+  background-color:#F7F8FA;
+  color: #666D76;
+  border-radius: 11px;
+  box-shadow: none !important;
+  width: 36%;
+  text-align: center;
+  border-width: 1px;
+}
+.billing-radio-group .ant-radio-button-wrapper-checked {
+  border: 1px solid #0769DA !important;
+}
+.billing-radio-group .ant-radio-button-wrapper-checked:hover {
+  color:#666D76 ;
+}
+.billing-radio-group .ant-radio-button-wrapper-checked:focus-within {
+  border: 2px solid #0769DA !important;
+}
+.active-plan-text-color {
+  color: #FFF;
+}
+.active-plan-background-color {
+  background-color: #3e79f7;
+}
+.card-border-radius {
+  border-radius: 8px 8px 0 0;
+}
+.yearly-text {
+  color: #EF642E !important;
+}
+.monthly-text {
+  color: #3E79F7 !important;
+}
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
+.recommended-badge {
+    text-align: center;
+    background-color: #EF642E;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+.active-card-border {
+  border: 2px solid #EF642E;
+  border-radius: 8px;
+}
+.card-border-highlighted {
+  position: relative;
+  padding: 20px;
+}
+
+.card-border-highlighted::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 0 solid transparent;
+  transition: border 0.3s ease;
+  pointer-events: none;
+}
+.card-border-highlighted:hover::before {
+  border: 2px solid #EF642E;
+  border-radius: 8px;
+}
+
+.card-border-highlighted:hover .selected-package-bg {
+  border: none !important;
+  background-color: #EF642E !important;
+}

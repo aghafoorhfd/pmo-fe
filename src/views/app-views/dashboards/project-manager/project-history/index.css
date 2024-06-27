@@ -1,0 +1,6 @@
+.table-border-equal .ant-table table {
+    border-radius: 0px;
+}
+.table-border-equal .ant-table-container {
+    border-top-left-radius: 0px;
+}

@@ -1,0 +1,38 @@
+.gantt-chart-container{
+    border-radius: 10px;
+    border: 1px solid #f2f4f7;
+    background: #fefefe;
+}
+.user-project-stat-bar .apexcharts-text{
+    fill: #667085;
+    font-weight: 500;
+    font-size: 12px;
+}
+.project-conflict-column {
+    min-width: 200px;
+    max-width: 200px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.content-scrollable {
+    height: 352px;
+    overflow: scroll;
+}
+.sprint-text {
+    color: red;
+    margin-left: '10px'
+}
+.conflict-text {
+    color: #101828;
+}
+.card-height {
+    height: 550px;
+}
+
+.conflict-card-height {
+    height: 280px;
+}
+
+.sprint-card {
+    height: 275px;
+}

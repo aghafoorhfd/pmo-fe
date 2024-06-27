@@ -1,0 +1,74 @@
+  /* Styles for jira tool tip */
+  .tool-tip-container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(26,51,83,.15);
+
+  }
+
+  .tool-tip-container .jira-item{
+    font-size: 12px;
+  }
+  .tool-tip-container .jira-item .jira-item-key{
+    color: #3e79f7;
+  }
+  .tool-tip-container .jira-item .jira-item-name{
+    color: darkslategray;
+  }
+  .jira-overlay-tooltip .ant-tooltip-inner {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background-color: white !important;
+    padding: 0 !important;
+  }
+  .jira-backlog-column {
+    width: 140px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .jira-backlog-column span {
+    cursor: pointer;
+    color: #3e79f7;
+  }
+  .jira-authorize-description{
+    font-size: 14px;
+  }
+  .jira-timeline-table .ant-table.ant-table-bordered > .ant-table-container {
+    border-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+  }
+  .jira-timeline-table .ant-table table {
+    border-radius: 0px !important;
+  }
+
+.status-text {
+  color: #040404;
+}
+.rounded-tag {
+  border-radius: 50px;
+}
+.active-sprint {
+  background: #EAF1FF !important;
+  border: 2px solid #D3E1FF !important;
+}
+
+.jira-issues-container {
+  height: 500px;
+}
+
+.sprint-container {
+  height: 95px;
+  border: 1px solid #ECECEC;
+}
+.sprint-header {
+  height: 95px;
+  border: 1px solid #ECECEC;
+  background: #F2F4F7;
+}
+
+.fixed-top-header {
+  position: sticky;
+  top: 0; 
+  z-index: 2;
+}

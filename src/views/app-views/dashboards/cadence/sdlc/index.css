@@ -1,0 +1,10 @@
+.agile-form-field {
+    width: 17rem !important;
+  }
+  
+  .action-button {
+    width: 105px;
+    height: 36px;
+    border-radius: 8px;
+    line-height: 0px !important;
+  }

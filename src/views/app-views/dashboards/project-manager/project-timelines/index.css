@@ -1,0 +1,50 @@
+  /* Styles for sub stage tool tip */
+  .sub-stage-tooltip-container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(26,51,83,.15);
+    text-align: left;
+  }
+
+  .sub-stage-tooltip .ant-timeline-item-content {
+    min-height: unset !important;
+  }
+
+  .project-stage-form-loader {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .project-timelines-heading {
+   background-color: rgb(255, 255, 255);
+  }
+  .timeline-progress-bar {
+   width: 94%;
+  }
+
+  .timeline-progress-bar .ant-progress-inner {
+    background-color: #D0DEF5;
+  }
+  .progess-bar-skeleton .ant-skeleton-title  {
+    width: 100% !important;
+  }
+  .remove-action-btn {
+    font-size: 20px;
+    color: #667085 !important;
+
+  }
+  .project-tooltip-position {
+    position: relative;
+    top: 60px;
+  }
+  .date-range-timeline-header {
+    width: 250px;
+  }
+  .date-range-timeline{
+    display: table-cell;
+    vertical-align: middle;
+  }

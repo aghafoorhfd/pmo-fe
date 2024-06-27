@@ -1,0 +1,21 @@
+import React from 'react';
+import { Navigate, Outlet, useLocation } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { AUTH_PREFIX_PATH, UNAUTHENTICATED_ENTRY, REDIRECT_URL_KEY } from '../configs/AppConfig';
+
+function ProtectedRoute() {
+  const { token } = useSelector((state) => state.auth);
+  const location = useLocation();
+
+  if (!token) {
+    return (
+      <Navigate
+        replace
+        to={`${AUTH_PREFIX_PATH}${UNAUTHENTICATED_ENTRY}?${REDIRECT_URL_KEY}=${location.pathname}`} />
+    );
+  }
+
+  return <Outlet />;
+}
+
+export default ProtectedRoute;

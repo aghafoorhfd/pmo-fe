@@ -1,0 +1,14 @@
+.table-header {
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+
+.table-header .ant-table-thead > tr > th {
+  background-color: #3e79f7 !important;
+  color: #fff;
+}
+.custom-data-table .ant-table-thead > tr > th{
+  background: rgb(242, 244, 247);
+  border-top-right-radius: 0px !important;
+}
+

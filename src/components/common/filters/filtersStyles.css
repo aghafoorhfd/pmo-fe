@@ -1,0 +1,11 @@
+.content-container {
+  width: 40rem;
+  height: auto;
+}
+
+.filter-title {
+  color: #101828;
+  padding: 5px 0px 5px 0px;
+  font-weight: 500;
+  font-size: 18px;
+}

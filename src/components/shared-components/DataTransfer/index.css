@@ -1,0 +1,10 @@
+.ant-transfer-list-header-dropdown {
+    display: none;
+}
+.ant-transfer-list {
+    width: 50% !important;
+    overflow: scroll;
+}
+.data-transfer-badge .ant-badge-count {
+    background-color: #3e79f7 !important;
+}
